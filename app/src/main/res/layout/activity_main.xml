@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    tools:ignore="ExtraText"
+    android:background="@color/bgColor"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:background="@color/bgColor"
     android:padding="16dp"
-    >
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,7 +17,7 @@
         android:layout_marginTop="16dp"
         android:text="Calculate Your Age"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 
     <TextView
@@ -27,19 +26,18 @@
         android:layout_marginTop="16dp"
         android:text="In Minutes"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btndate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Date"
         android:layout_marginTop="15dp"
         android:backgroundTint="@color/btn"
+        android:text="Select Date"
         android:textColor="@color/grey"
-        android:textStyle="bold"
         android:textSize="25sp"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/selected"
@@ -55,10 +53,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Selected Date"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:textColor="@color/grey"
-        />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/dim"
@@ -72,13 +69,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="In Minutes Till Date"
         android:layout_marginTop="10dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:text="In Minutes Till Date"
         android:textColor="@color/grey"
-        />
-
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
